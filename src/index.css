@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: sans-pro;
+    src: url('/public/assets/fonts/source-sans-pro.semibold.ttf');
+  }
+
+.text-sans-pro{
+    font-family: sans-pro;
+}
+
+button {
+  font-family: monospace;
+  background-color: #f3f7fe;
+  color: #3b82f6;
+  border: none;
+  border-radius: 8px;
+  width: 100px;
+  height: 45px;
+  transition: .3s;
+}
+
+button:hover {
+  background-color: #3b82f6;
+  box-shadow: 0 0 0 5px #3b83f65f;
+  color: #fff;
+}
+
+.navLink{
+  padding: 15px;
+  
+}
+
+.navLink:hover{
+  
+  background-color: #d6dae05f;
+  color: #fff;
+  border-radius: 10px;
+}
